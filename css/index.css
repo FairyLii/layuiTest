@@ -1,0 +1,32 @@
+.headerFormStyle{
+    display: flex;
+}
+.formItemStyle{
+    width: 200px;
+    margin-top: 12px;
+}
+@media screen and (max-width: 1050px){
+    formItemStyle{
+        width: 150px;
+    }
+}
+.headerFormStyle .layui-form-label{
+    width: 50px;
+    color: #fbfbfb;
+
+}
+.headerFormStyle .layui-input-block{
+    margin-left: 80px;
+
+}
+.headerFormStyle .layui-form-select{
+    margin-left: 80px;
+
+}
+.headerFormStyle .layui-form-radio{
+    margin-left: 80px;
+    margin: 5px 0px;
+    color: #fbfbfb;
+
+}
+
